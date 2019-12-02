@@ -33,7 +33,7 @@ Beschäftigte
 
 #### Empfänger personenbezogener Daten
 
-* Buchhaltungsbüro CK Steuerberatung, Zur Verlach 25b, 40723 Hilden
+* Buchhaltung: Steuerberater Christian Klein, Zur Verlach 25b, 40723 Hilden
 * Finanzamt
 * Rentenversicherung
 * ggf. Krankenkassen der Beschäftigten
