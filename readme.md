@@ -32,3 +32,8 @@ Beschäftigte
 * Finanzamt
 * Rentenversicherung
 * ggf. Krankenkassen der Beschäftigten
+
+#### Drittlandstransfer
+
+Oben genannte Daten werden in unserem Auftrag ihn "Google Drive" des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA gespeichert. Siehe https://policies.google.com/privacy
+
