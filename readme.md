@@ -5,6 +5,7 @@ Ettighofferstr. 15<br>
 53127 Bonn<br>
 
 Sofern keine gesetzlichen Normen entgegenstehen, verfolgen wir das Prinzip der Datensparsamkeit und beachten bei der Erhebung, Speicherung, Verarbeitung, Veränderung oder Übermittlung personenbezogener Daten die Zulässigkeitsvoraussetzungen und Interessensabwägungen des § 28 BDSG und Art. 6 DSGVO.<br>
+
 Bei der Planung und Konzeption informationstechnischer Sicherungseinrichtungen orientieren wir uns an den Empfehlungen des BSI. Das vorliegende Dokument beschreibt den aktuellen Zustand der implementierten technischen und organisatorischen Maßnahmen sowie interne Verhaltensrichtlinien und Mitarbeiteranweisungen.
 
 
