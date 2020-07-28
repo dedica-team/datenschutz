@@ -74,7 +74,7 @@ Verarbeitung glaubhaft zu machen, bevor Unterstützungsleistungen erbracht werde
 
 ### Benutzerkontrolle
 
-Die Benutzerkontrolle wird über die im Abschnitt Zugriffskontrolle beschriebenen Mechanismen durchgesetzt, unabhängig davon, ob es sich um einen Zugriff per Datenfernübertragung oder Standortlokal handelt.
+Die Benutzerkontrolle wird über die, im Abschnitt Zugriffskontrolle beschriebenen Mechanismen durchgesetzt, unabhängig davon, ob es sich um einen Zugriff per Datenfernübertragung oder am gleichen Ort handelt.
 
 ### Zugriffskontrolle
 
