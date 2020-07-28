@@ -18,7 +18,7 @@ Matthias Molitor matthias@dedica.team
 
 ## 2. Zwecke der Verarbeitung
 
-### 2.1 Abwicklung von Beschäftigungsverhältnisen, Lohnbzw. Gehaltsabrechnungen
+### 2.1 Abwicklung von Beschäftigungsverhältnissen, Lohn bzw. Gehaltsabrechnungen
 
 #### Betroffene Personen: 
 
@@ -45,7 +45,7 @@ Oben genannte Daten werden in unserem Auftrag ihn "Google Drive" des Anbieters G
 
 #### Löschfristen
 
-DieLöschung erfolgt nach Ablauf der gesetzlichen Aufbewahrungsfristen.
+Die Löschung erfolgt nach Ablauf der gesetzlichen Aufbewahrungsfristen.
 
 
 ## Technische und organisatorische Maßnahmen
@@ -74,7 +74,7 @@ Verarbeitung glaubhaft zu machen, bevor Unterstützungsleistungen erbracht werde
 
 ### Benutzerkontrolle
 
-Die Benutzerkontrolle wird über die im Abschnitt Zugriffskontrolle beschriebenen Mechanismen durchgesetzt, unabhängig davon, ob es sich um einen Zugriff per Datenfernübertragung oder standortlokal handelt.
+Die Benutzerkontrolle wird über die, im Abschnitt Zugriffskontrolle beschriebenen Mechanismen durchgesetzt, unabhängig davon, ob es sich um einen Zugriff per Datenfernübertragung oder am gleichen Ort handelt.
 
 ### Zugriffskontrolle
 
@@ -82,7 +82,7 @@ Für die Zugriffssteuerung setzen wir ein differenziertes Berechtigungskonzept e
 
 
 Für jeden Kunden – und bei Bedarf auch für einzelne Projekte – wird eine eigene Active Directory Sicherheitsgruppe erstellt. Der Zugriff auf die Daten eines Kunden wird auf Mitarbeiter eingeschränkt, 
-die Mitglied in dieser Sicherheitsgruppe sind.<br
+die Mitglied in dieser Sicherheitsgruppe sind.<br>
 
 
 Für die  Benutzer-Authentifizierung werden individuelle Benutzerpasswörter mit mindestens 8 Zeichen verwendet, die Groß-/Kleinbuchstaben und Zahlen enthalten müssen. Die Verwendung von Sonderzeichen ist optional. 
@@ -92,20 +92,20 @@ Mitarbeiter sind aufgefordert, ihre individuellen Benutzerpasswörter nicht mehr
 
 * Client-Systeme müssen mit einer Laufwerksverschlüsselung gesichert sein.
 
-* Client-Systeme müssen bei Verlassen des Arbeitsplatzes gesperrt werden. Eine automatische Sperrung muß zudem nach längerer Inaktivität erfolgen.
+* Client-Systeme müssen bei Verlassen des Arbeitsplatzes gesperrt werden. Eine automatische Sperrung muss zudem nach längerer Inaktivität erfolgen.
 
 * Zugangsdaten für Fremdsysteme (Kundensysteme, Online-Portale, Lieferantenshops, etc.) werden in einem zentralen multi-plattform und multi-user Passwortserver des Herstellers 1password
 (zertifiziert nach SOC-2) gespeichert. Verbindungen zum Passwortserver sind SSL-verschlüsselt. Je nach Benutzerrecht, dürfen einzelne Zugangsdaten verwendet (ohne Preisgabe), gelesen, verändert oder neu angelegt werden.
 
 Die Erstellung von Zugangsdaten für Fremdsysteme unterliegt den folgenden Richtlinien:
 
-* Passwörter müssen zufallsgeneriert werden. Für die Erstellung soll der Passwort Generator des Passwortservers verwendet werden. Für die Verwaltung und Speicherung muß der Passwortserver verwendet werden. Passwörter sollen, wenn möglich, mit einem Verfallsdatum versehen werden.
+* Passwörter müssen Zufalls-generiert werden. Für die Erstellung soll der Passwortgenerator des Passwortservers verwendet werden. Für die Verwaltung und Speicherung muss der Passwortserver verwendet werden. Passwörter sollen, wenn möglich, mit einem Verfallsdatum versehen werden.
 * Passwörter dürfen nicht mehrfach für verschiedene Dienste verwendet werden.
 * Falls der jeweilige Dienst dies unterstützt, sollen Passwörter mit mindestens 20 Zeichen, bestehend aus Groß-/Kleinbuchstaben, Zahlen und Sonderzeichen generiert werden.
 * Zugriffsrechte müssen unmittelbar bei der Erstellung explizit gesetzt werden.
 
 Die Basis der Firewall-Regelwerke sieht zunächst ein vollständiges Blockieren der gesamten Netzwerkkommunikation vor. Notwendige Kommunikation wird explizit freigegeben.
- Hierbei muß auf eine möglichst genaue Spezifikation der Kommunikationseigenschaften geachtet werden. Gewährende Firewall-Regeln sollen auf die zu erwartenden Nutzungszeiten eingeschränkt werden.<br>
+ Hierbei muss auf eine möglichst genaue Spezifikation der Kommunikationseigenschaften geachtet werden. Gewährende Firewall-Regeln sollen auf die zu erwartenden Nutzungszeiten eingeschränkt werden.<br>
 
 Serverdienste wie zum Beispiel Webservices oder Datenbanken müssen – je nachdem ob eine Nutzung von intern, extern oder intern/extern erfolgen soll – auf unterschiedlichen Container-Hosts (Docker) ausgeführt werden. Container-Hosts sind eigenständige virtuelle Maschinen, auf denen ein minimales Linux-System zur Container-Virtualisierung ausgeführt wird. Diese Trennung ermöglicht die Durchsetzung von Zugriffsbeschränkungen auf Netzwerkebene und verhindert Zugriffe auf interne Systeme durch Rechteeskalation eines öffentlich zugänglichen Systems.
 
